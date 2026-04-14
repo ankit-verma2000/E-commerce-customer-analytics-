@@ -1,5 +1,15 @@
 -- Task 3: Cohort Retention analysis:
 
+1. Build monthly signup cohorts (Oct 2023 - Mar 2024):
+2. Calculate retention rates at 30, 60, 90, 120, 150, 180 days
+3. Visualize cohort retention curves - python
+4. Identify which cohorts are performing best/worst- Python
+5. Analyze if the March 2024 cohort shows anomalies (promotional campaign impact) - python
+6. Calculate and compare:
+7. Cohort-specific AOV (average order value) trends
+8. Repeat purchase rates by cohort
+9. Revenue per cohort over time
+------------------------------------------------------------------------------
 -- create monthly cohort:
 CREATE TABLE cohort as 
 SELECT 
