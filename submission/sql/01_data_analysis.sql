@@ -1,3 +1,5 @@
+-- Data cleaning and analysis:
+
 SELECT * FROM transactions_clean;
 
 # Total revenue per customers:
@@ -64,3 +66,27 @@ FROM customers_clean c
 LEFT JOIN transactions_clean t
 ON c.customer_id = t.customer_id
 GROUP BY c.customer_id;
+
+---------------------------------------------------------
+-- Data_cleaning:
+-- Fix data quality issues in master_customers
+-- 1. Fix negative recency
+UPDATE master_customers 
+SET recency_days = ABS(recency_days) 
+WHERE recency_days < 0;
+
+-- 2. Impute missing values (production-safe)
+UPDATE master_customers 
+SET total_transactions   = COALESCE(total_transactions, 0),
+    total_revenue        = COALESCE(total_revenue, 0),
+    avg_order_value      = COALESCE(avg_order_value, 0),
+    recency_days         = COALESCE(recency_days, 999),
+    customer_lifetime_days = COALESCE(customer_lifetime_days, 
+                             (SELECT MEDIAN(customer_lifetime_days) FROM master_customers));
+
+-- 3. Remove rows with missing target
+DELETE FROM master_customers WHERE is_churned IS NULL;
+
+-- Create cleaned view for downstream use
+CREATE OR REPLACE VIEW cleaned_master_customers AS
+SELECT * FROM master_customers;
