@@ -1,23 +1,22 @@
 -- Task 2: Customer Segmentation Analysis 
 
-Perform RFM (Recency, Frequency, Monetary) segmentation:
-Calculate RFM scores for each customer (scale 1-5)
-Create 5 distinct customer segments with business-friendly names
-Analyze segment composition by:
-Acquisition channel
-Product category preference
-Geographic distribution
+- Perform RFM (Recency, Frequency, Monetary) segmentation:
+- Calculate RFM scores for each customer (scale 1-5)
+- Create 5 distinct customer segments with business-friendly names
 
-Average discount dependency
-Key questions to answer:
-Which acquisition channels bring the highest-value customers?
-Are discount-acquired customers less loyal?
-What's the relationship between first-purchase timing and lifetime value?
+- Analyze segment composition by:
+  Acquisition channel
+  Product category preference
+  Geographic distribution
+  Average discount dependency
+
+- Key questions to answer:
+1. Which acquisition channels bring the highest-value customers?
+2. Are discount-acquired customers less loyal?
+3. What's the relationship between first-purchase timing and lifetime value?
 ---------------------------------------------------------------
-
 select * from master_customer_sql;
-
-  # RFM table:
+# RFM table:
 CREATE TABLE rfm AS
 SELECT 
     customer_id,
