@@ -80,11 +80,12 @@ ON t.product_id = p.product_id;
 /* Q1. Which acquisition channels bring the highest-value customers? -> organic search */
 SELECT 
     acquisition_channel,
-    AVG(total_amount) AS avg_revenue,
+    ROUND(AVG(total_amount),2) AS avg_revenue,
+    ROUND(SUM(total_amount),2) as total_revenue,
     COUNT(DISTINCT customer_id) AS customers
 FROM rfm_analysis
 GROUP BY acquisition_channel
-ORDER BY avg_revenue DESC;
+ORDER BY total_revenue DESC;
 
 /*Q2. Are discount-acquired customers less loyal?*/
 SELECT  
