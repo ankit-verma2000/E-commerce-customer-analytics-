@@ -56,9 +56,9 @@ FROM master_customer_sql
 WHERE recency_days IS NOT NULL;
 ```
 <img width="343" height="242" alt="image" src="https://github.com/user-attachments/assets/3a7448ef-df9e-4615-875a-7027e440caa2" />
-
-
+---------------------------------------------------
 <img width="1116" height="481" alt="image" src="https://github.com/user-attachments/assets/2d7f985f-4d8c-47cb-b5fe-d6d6954b4b8f" />
+
 
 
 **5. Which acquisition channels bring the highest-value customers?**
