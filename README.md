@@ -94,7 +94,29 @@ So, the faster a customer makes their first purchase, the higher their lifetime 
 - Personalization for new users
 - Guide them toward first purchase faster
 
---
+--------------------------------------------------------------------------------------------------------------------------------
 
 ### Cohort table:
 <img width="643" height="77" alt="image" src="https://github.com/user-attachments/assets/345bb303-6d4a-4b59-853c-83eb2e3ef167" />
+
+Retention improves consistently over time across all cohorts, indicating that users who remain engaged early tend to stay long-term. 
+- February cohort shows the strongest early and mid-term retention, means better onboarding or user experience during that period.
+- However, January month cohort slightly outperforms in long-term retention, meaning users acquired earlier may have developed stronger long-term habits.
+
+**9. Cohort-specific AOV (average order value) trends** 
+
+(amount spent per transaction)
+
+<img width="135" height="70" alt="image" src="https://github.com/user-attachments/assets/3069a000-9f86-4821-b5ed-a11cb4c1746a" />
+
+- Average order value remains fairly consistent across cohorts, indicates a stable customer spending behavior.
+- The March cohort shows a slight improvement in AOV, which could be driven by better product mix or higher-value customers.
+
+**Recommendations**
+- Investigate March uplift :Check pricing, campaigns, or product changes
+- Analyze the impact of discounts especially for February dip.
+
+**10.  Repeat purchase rates by cohort**
+<img width="359" height="72" alt="image" src="https://github.com/user-attachments/assets/de4b3833-c1b4-4557-941e-682970bb7823" />
+
+Repeat purchase rates show a slight declining trend from January to March, indicating that newer cohorts are marginally less likely to make repeat purchases. While the drop is not drastic, it suggests a potential decline in customer quality, engagement, or post-purchase experience in recent months
