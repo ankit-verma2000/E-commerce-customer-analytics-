@@ -120,3 +120,17 @@ Retention improves consistently over time across all cohorts, indicating that us
 <img width="359" height="72" alt="image" src="https://github.com/user-attachments/assets/de4b3833-c1b4-4557-941e-682970bb7823" />
 
 Repeat purchase rates show a slight declining trend from January to March, indicating that newer cohorts are marginally less likely to make repeat purchases. While the drop is not drastic, it suggests a potential decline in customer quality, engagement, or post-purchase experience in recent months
+
+**11. Revenue per cohort over time**
+<img width="172" height="74" alt="image" src="https://github.com/user-attachments/assets/c6dd0b93-a475-4f18-b175-3188e52f7162" />
+
+- January cohort generated the highest revenue ~25.88M (highest):
+Indicates strongest overall performance (likely better retention + repeat purchases)
+- March cohort is second, close to January ~24.90M (second high): 
+aligns with your earlier insight of higher AOV in March
+- February cohort has the lowest revenue ~23.95M (least):
+Despite decent retention, overall revenue is lower.
+**Reasons**: Lower AOV
+Slightly fewer repeat purchases
+- Revenue trend is relatively stable (in the 24M–26M range)
+No drastic drop; business performance is consistent across cohorts
