@@ -90,7 +90,11 @@ So, the faster a customer makes their first purchase, the higher their lifetime 
 - impprove onboarding experience
 - Offer first-time incentives (smartly)
 2. Target high-intent users early
-- Retarget users within first 24–48 hours
+- Retarget users within first 24-48 hours
 - Personalization for new users
 - Guide them toward first purchase faster
 
+--
+
+### Cohort table:
+<img width="643" height="77" alt="image" src="https://github.com/user-attachments/assets/345bb303-6d4a-4b59-853c-83eb2e3ef167" />
