@@ -76,3 +76,21 @@ WHERE recency_days IS NOT NULL;
 **7. Top 5 country with Higest contributing revenue?**
 <img width="216" height="108" alt="image" src="https://github.com/user-attachments/assets/056fdb54-41a9-46d0-8631-aea5c4eede26" />
 
+**8. First purchases and its LTV**
+<img width="228" height="76" alt="image" src="https://github.com/user-attachments/assets/d1b3c00a-4cd5-44c9-9f03-5acad13bf34f" />
+
+- Immediate purchasers have the highest LTV, i.e Customers who purchase within 1 day are extremely valuable
+- Early purchasers also perform well (approx avg LTV: 12,766), i.e. Slightly lower than immediate, but still high-value customers
+- Late purchasers have significantly lower LTV (Avg LTV approx 5,186), i.e. Less than half of immediate buyers → strong drop in value
+  
+So, the faster a customer makes their first purchase, the higher their lifetime value making early conversion a critical growth.
+
+**Recommendations**: 
+1. Focus on reducing time to first purchase
+- impprove onboarding experience
+- Offer first-time incentives (smartly)
+2. Target high-intent users early
+- Retarget users within first 24–48 hours
+- Personalization for new users
+- Guide them toward first purchase faster
+
