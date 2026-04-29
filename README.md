@@ -136,3 +136,5 @@ Slightly fewer repeat purchases
 No drastic drop; business performance is consistent across cohorts
 
 _So, Revenue is driven by a combination of AOV + retention + repeat behavior, not just one metric._
+
+
