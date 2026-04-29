@@ -103,6 +103,8 @@ Retention improves consistently over time across all cohorts, indicating that us
 - February cohort shows the strongest early and mid-term retention, means better onboarding or user experience during that period.
 - However, January month cohort slightly outperforms in long-term retention, meaning users acquired earlier may have developed stronger long-term habits.
 
+<img width="674" height="405" alt="image" src="https://github.com/user-attachments/assets/6b5e2ab6-3fb5-4e02-abc7-e126439e8785" />
+
 **9. Cohort-specific AOV (average order value) trends** 
 
 (amount spent per transaction)
