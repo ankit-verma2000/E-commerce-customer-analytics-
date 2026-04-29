@@ -23,7 +23,7 @@ ShopFast is seeing declining repeat purchase rates. The executive team needs ins
 <img width="106" height="37" alt="image" src="https://github.com/user-attachments/assets/1f9c881f-092c-4d7e-be73-07308e412d35" />
 
 3.Created master customer table:
-"""
+```
 SELECT 
     c.customer_id,
     MAX(c.registration_date) AS registration_date,
@@ -31,19 +31,14 @@ SELECT
     SUM(t.total_amount) AS total_revenue,
     MIN(t.transaction_date) AS first_purchase_date,
     MAX(t.transaction_date) AS last_purchase_date,
-    DATEDIFF(MIN(t.transaction_date),
-            MAX(c.registration_date)) AS days_to_first_purchase,
-    DATEDIFF(MAX(t.transaction_date),
-            MAX(c.registration_date)) AS customer_lifetime_days,
-    DATEDIFF((SELECT MAX(transaction_date) FROM transactions_clean),
-            MAX(t.transaction_date)) AS recency_days,
+    DATEDIFF(MIN(t.transaction_date), MAX(c.registration_date)) AS days_to_first_purchase,
+    DATEDIFF(MAX(t.transaction_date), MAX(c.registration_date)) AS customer_lifetime_days,
+    DATEDIFF((SELECT MAX(transaction_date) FROM transactions_clean), MAX(t.transaction_date)) AS recency_days,
     SUM(t.total_amount) / NULLIF(COUNT(t.transaction_id), 0) AS avg_order_value,
-    CASE
-        WHEN COUNT(t.transaction_id) > 1 THEN 1
-        ELSE 0
+    CASE WHEN COUNT(t.transaction_id) > 1 THEN 1 ELSE 0
     END AS is_repeat_customer
 FROM customers_clean c
 LEFT JOIN transactions_clean t
 ON c.customer_id = t.customer_id
 GROUP BY c.customer_id;
-"""
+```
