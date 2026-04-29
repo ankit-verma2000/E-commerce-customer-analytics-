@@ -16,11 +16,11 @@ ShopFast is seeing declining repeat purchase rates. The executive team needs ins
 
 
 > Questions answered:
-1. Total revenue per customers:
+**1. Total revenue per customers:**
 <img width="264" height="106" alt="image" src="https://github.com/user-attachments/assets/75b751b5-5dd5-4e67-94e8-2a6436d5c232" />
 
 
-2. Average Order Value:
+**2. Average Order Value:**
 <img width="106" height="37" alt="image" src="https://github.com/user-attachments/assets/1f9c881f-092c-4d7e-be73-07308e412d35" />
 
 
@@ -61,4 +61,8 @@ WHERE recency_days IS NOT NULL;
 <img width="1116" height="481" alt="image" src="https://github.com/user-attachments/assets/2d7f985f-4d8c-47cb-b5fe-d6d6954b4b8f" />
 
 
-5. 
+**5. Which acquisition channels bring the highest-value customers?**
+<img width="338" height="158" alt="image" src="https://github.com/user-attachments/assets/9abe6401-65bb-40a6-9827-1cb84c59456d" />
+
+<img width="354" height="207" alt="image" src="https://github.com/user-attachments/assets/05b4329c-8367-450c-bd9f-6d29945d3592" />
+
