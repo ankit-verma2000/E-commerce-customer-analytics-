@@ -13,3 +13,8 @@ ShopFast is seeing declining repeat purchase rates. The executive team needs ins
 - Actionable recommendations to improve retention & LTV
 
 **Tech Stack**: MySQL, Python (scikit-learn, pandas), Power BI
+
+
+> Questions answered:
+1. Total revenue per customers:
+<img width="264" height="106" alt="image" src="https://github.com/user-attachments/assets/75b751b5-5dd5-4e67-94e8-2a6436d5c232" />
