@@ -134,3 +134,5 @@ Despite decent retention, overall revenue is lower.
 Slightly fewer repeat purchases
 - Revenue trend is relatively stable (in the 24M–26M range)
 No drastic drop; business performance is consistent across cohorts
+
+_So, Revenue is driven by a combination of AOV + retention + repeat behavior, not just one metric._
