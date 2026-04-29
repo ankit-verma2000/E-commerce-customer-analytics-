@@ -89,14 +89,13 @@ ORDER BY total_revenue DESC;
 
 /*Q2. Are discount-acquired customers less loyal?*/
 SELECT  
-    CASE 
-        WHEN discount_code IS NOT NULL THEN 'Discount Users'
-        ELSE 'Non-Discount Users'
+    CASE WHEN discount_code IS NOT NULL THEN 'Discount Users' ELSE 'Non-Discount Users'
     END AS discount_group,
     AVG(total_amount) AS avg_revenue,
-    COUNT(DISTINCT customer_id) AS customers
+    COUNT(DISTINCT customer_id) AS customers,
+    ROUND(COUNT(DISTINCT CASE WHEN segment = 'Loyal Customers' THEN customer_id END) * 100.0 / COUNT(DISTINCT customer_id), 
+    2) AS loyalty_rate
 FROM rfm_analysis
-where segment = 'Loyal Customers'
 GROUP BY discount_group;
 
 /* Q3. Segment Distribution by Acquisition Channel*/
