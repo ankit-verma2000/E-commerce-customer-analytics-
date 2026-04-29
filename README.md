@@ -66,3 +66,8 @@ WHERE recency_days IS NOT NULL;
 
 <img width="354" height="207" alt="image" src="https://github.com/user-attachments/assets/05b4329c-8367-450c-bd9f-6d29945d3592" />
 
+**6.  Are discount-acquired customers less loyal?***
+Data clearly indicates that customers acquired through discounts are more price-sensitive and less likely to build long-term engagement. On the other hand, non-discount users show stronger organic loyalty and contribute more to the loyal customer base.
+<img width="369" height="52" alt="image" src="https://github.com/user-attachments/assets/eaf8fd07-ab4a-443d-8586-b520e3a52194" />
+Discounts drive acquisition, but not loyalty, and the data clearly shows a lower conversion to loyal customers among discount users.
+
